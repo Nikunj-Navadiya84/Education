@@ -1,15 +1,17 @@
 import React from "react";
 import Header from "../components/Header";
-import { assets } from "../assets/assets";
+import Banner from "../components/Banner";
 
 const Home = () => {
   return (
-    <div>
-      <div style={{ backgroundImage: `url(${assets.bannerbg})`, backgroundSize: "cover", backgroundPosition: "center",minHeight: "100vh",}}>
+    <div className="bg-[#FAFAFA]">
+      <div className="flex flex-col">
         <Header />
+        <Banner />
       </div>
     </div>
   );
 };
 
 export default Home;
+
