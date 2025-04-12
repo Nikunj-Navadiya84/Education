@@ -22,7 +22,7 @@ const Success = () => {
     ];
 
     return (
-        <div className="w-full bg-[#FFFAF5] curved-bottom">
+        <div className="w-full bg-[#FFFAF5]">
             <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] py-16">
                 <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 items-center">
                     {/* Left Content */}

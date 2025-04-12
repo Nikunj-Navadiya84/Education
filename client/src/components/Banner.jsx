@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div className="curved-bottom">
+        <div className="curved-bottom bg-[#f5f9f1]">
             <div className="relative w-full  flex items-center justify-center px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]  sm:py-12 md:py-16  overflow-hidden">
 
                 <div className="w-full ">

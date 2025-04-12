@@ -7,11 +7,13 @@ import Success from "../components/Success";
 const Home = () => {
   return (
     <div>
-      <div className="bg-[#f5f9f1]">
-        <Header />
-        <Banner />
-      </div>
+
+      <Header/>
+
+      <Banner/>
+
       <Categories />
+
       <Success />
     </div>
   );

@@ -9,7 +9,7 @@ const Header = () => {
     const handleNavItemClick = () => setMenuOpen(false);
 
     return (
-        <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+        <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] bg-[#f5f9f1]">
             <div className="flex items-center justify-between py-5">
 
                 {/* Logo */}
