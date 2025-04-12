@@ -6,3 +6,23 @@
 *{
     font-family: "Poppins"
 }
+
+.curved-bottom {
+    position: relative;
+    background: #f5f9f1;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .curved-bottom::after {
+    content: "";
+    position: absolute;
+    bottom: -60xpx;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 60px;
+    background: #f5f9f1;
+    border-radius: 0 0 60px 60px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }

@@ -4,8 +4,8 @@ import Banner from "../components/Banner";
 
 const Home = () => {
   return (
-    <div className="bg-[#FAFAFA]">
-      <div className="flex flex-col">
+    <div>
+      <div className="bg-[#f5f9f1]">
         <Header />
         <Banner />
       </div>
