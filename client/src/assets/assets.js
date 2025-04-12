@@ -15,6 +15,10 @@ import categories1 from "./categories1.svg"
 import categories2 from "./categories2.svg"
 import categories3 from "./categories3.svg"
 import categories4 from "./categories4.svg"
+import success1 from "./success1.png"
+import success2 from "./success2.png"
+import star from "./star.svg"
+import arrow from "./arrow.svg"
 
 
 
@@ -35,6 +39,10 @@ export const assets = {
     categories1,
     categories2,
     categories3,
-    categories4
+    categories4,
+    success1,
+    success2,
+    star,
+    arrow,
 }
 
