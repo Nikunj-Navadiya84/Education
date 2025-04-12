@@ -11,6 +11,12 @@ import people4 from "./people4.png"
 import people5 from "./people5.png"
 import online from "./online.svg"
 import star1 from "./star1.svg"
+import categories1 from "./categories1.svg"
+import categories2 from "./categories2.svg"
+import categories3 from "./categories3.svg"
+import categories4 from "./categories4.svg"
+
+
 
 export const assets = {
     bannerbg,
@@ -25,6 +31,10 @@ export const assets = {
     people4,
     people5,
     online,
-    star1
+    star1,
+    categories1,
+    categories2,
+    categories3,
+    categories4
 }
 
