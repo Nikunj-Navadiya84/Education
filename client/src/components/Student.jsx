@@ -52,7 +52,7 @@ const Student = () => {
 
     return (
         <div className='student'>
-            <div className="w-full bg-[#F8F9FE] curved-bottom relative overflow-hidden">
+            <div className="w-full bg-[#F8F9FE] curved-bottom relative ">
                 {/* Top Curve */}
                 <div className="absolute  top-0 left-0 w-full">
                     <svg

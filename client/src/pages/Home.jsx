@@ -7,7 +7,7 @@ import Courses from "../components/Courses";
 import Principles from "../components/Principles";
 import Counter from "../components/Counter";
 import Student from "../components/Student";
-
+import Questions from "../components/Questions";
 const Home = () => {
   return (
     <div>
@@ -27,6 +27,8 @@ const Home = () => {
       <Counter />
 
       <Student />
+
+      <Questions />
     </div>
   );
 };
