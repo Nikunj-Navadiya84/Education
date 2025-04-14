@@ -49,10 +49,10 @@ const Courses = () => {
             <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
                 {/* Header */}
                 <div className="text-center mb-12">
-                    <h2 className="text-[#0A2429] text-3xl md:text-4xl font-bold mb-4">
+                    <h2 className="text-[#0A2429] text-4xl md:text-4xl font-bold mb-4">
                         Our Popular Online Courses
                     </h2>
-                    <p className="text-gray-600 max-w-2xl mx-auto text-sm">
+                    <p className="text-gray-600  w-lg mx-auto text-sm">
                         Design and market online courses, faster engaging communities, and
                         earn from memberships - all on one robust, scalable platform.
                     </p>
