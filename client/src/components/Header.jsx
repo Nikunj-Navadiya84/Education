@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { AiOutlineAlignLeft } from "react-icons/ai";
-import { AiOutlineAlignRight } from "react-icons/ai";
 
-const Header = () => {
+
+const Header = ({ onHomeClick, onCategoriesClick, onCoursesClick, onPrinciplesClick, onFooterClick }) => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const handleMenuClick = () => setMenuOpen(!menuOpen);
     const handleNavItemClick = () => setMenuOpen(false);
 
     return (
-        <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] bg-[#f5f9f1]">
+        <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] sticky top-0 z-99  bg-[#f5f9f1]">
             <div className="flex items-center justify-between py-5">
 
                 {/* Logo */}
@@ -20,11 +20,11 @@ const Header = () => {
                 {/* Desktop Navigation */}
                 <div className="hidden lg:flex items-center gap-6 text-gray-700 text-sm font-medium">
                     <ul className="flex gap-6">
-                        <li className="cursor-pointer hover:text-gray-900">HOME</li>
-                        <li className="cursor-pointer hover:text-gray-900">ABOUT US</li>
-                        <li className="cursor-pointer hover:text-gray-900">COURSES</li>
-                        <li className="cursor-pointer hover:text-gray-900">BLOG</li>
-                        <li className="cursor-pointer hover:text-gray-900">CONTACT</li>
+                        <li className="cursor-pointer hover:text-gray-900" onClick={onHomeClick}>HOME</li>
+                        <li className="cursor-pointer hover:text-gray-900 " onClick={onCategoriesClick}>ABOUT US</li>
+                        <li className="cursor-pointer hover:text-gray-900" onClick={onCoursesClick}>COURSES</li>
+                        <li className="cursor-pointer hover:text-gray-900" onClick={onPrinciplesClick}>BLOG</li>
+                        <li className="cursor-pointer hover:text-gray-900" onClick={onFooterClick}>CONTACT</li>
                     </ul>
                 </div>
 

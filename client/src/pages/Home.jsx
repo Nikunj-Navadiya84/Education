@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Categories from "../components/Categories";
@@ -11,22 +11,46 @@ import Questions from "../components/Questions";
 import Asked from "../components/Asked";
 import Footer from "../components/Footer";
 
-
 const Home = () => {
+  const homeRef = useRef(null);
+  const categoriesRef = useRef(null);
+  const coursesRef = useRef(null);
+  const principlesRef = useRef(null);
+  const footerRef = useRef(null);
+
+  const scrollToRef = (ref) => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div>
+      <Header
+        onHomeClick={() => scrollToRef(homeRef)}
+        onCategoriesClick={() => scrollToRef(categoriesRef)}
+        onCoursesClick={() => scrollToRef(coursesRef)}
+        onPrinciplesClick={() => scrollToRef(principlesRef)}
+        onFooterClick={() => scrollToRef(footerRef)}
+      />
 
-      <Header/>
+      <div ref={homeRef}>
+        <Banner />
+      </div>
 
-      <Banner/>
 
       <Categories />
 
-      <Success />
 
-      <Courses />
+      <div ref={categoriesRef}>
+        <Success />
+      </div>
 
-      <Principles />
+      <div ref={coursesRef}>
+        <Courses />
+      </div>
+
+      <div ref={principlesRef}>
+      <Principles/>
+      </div>
 
       <Counter />
 
@@ -36,10 +60,11 @@ const Home = () => {
 
       <Asked />
 
-      <Footer />
+      <div ref={footerRef}>
+        <Footer />
+      </div>
     </div>
   );
 };
 
 export default Home;
-
