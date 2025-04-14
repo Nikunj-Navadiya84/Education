@@ -9,7 +9,7 @@ import Counter from "../components/Counter";
 import Student from "../components/Student";
 import Questions from "../components/Questions";
 import Asked from "../components/Asked";
-
+import Footer from "../components/Footer";
 
 
 const Home = () => {
@@ -35,6 +35,8 @@ const Home = () => {
       <Questions />
 
       <Asked />
+
+      <Footer />
     </div>
   );
 };

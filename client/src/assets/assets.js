@@ -46,6 +46,11 @@ import asked1 from "./asked1.png"
 import asked2 from "./asked2.png"
 import asked3 from "./asked3.png"
 import date from "./date.svg"
+import location from "./location.svg"
+import email from "./email.svg"
+import phone from "./phone.svg"
+import instagram from "./instagram.svg"
+import facebook from "./facebook.svg"
 
 
 export const assets = {
@@ -96,7 +101,11 @@ export const assets = {
     asked1,
     asked2,
     asked3,
-    date
-    
+    date,
+    email,
+    phone,
+    location,
+    instagram,
+    facebook,
 }
 
