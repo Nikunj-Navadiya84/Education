@@ -27,7 +27,7 @@ const Counter = () => {
 
     return (
         <div className="counter-section">
-            <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] py-20 ">
+            <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] pt-20 ">
                 <div className="bg-[#E8F1EE] p-10 rounded-4xl" >
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-4">
                         {stats.map((stat) => (

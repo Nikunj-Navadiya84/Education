@@ -35,6 +35,13 @@ import principles5 from "./principles5.svg"
 import principles6 from "./principles6.svg"
 import principles7 from "./principles7.svg"
 import principles8 from "./principles8.svg"
+import student1 from "./student1.png"
+import student2 from "./student2.png"
+import student3 from "./student3.png"
+import student4 from "./student4.png"
+import student5 from "./student5.png"
+import leftarrow from "./leftarrow.svg"
+import rightarrow from "./rightarrow.svg"
 
 
 export const assets = {
@@ -75,5 +82,12 @@ export const assets = {
     principles6,
     principles7,
     principles8,
+    student1,
+    student2,
+    student3,
+    student4,
+    student5,
+    leftarrow,
+    rightarrow
 }
 
