@@ -34,7 +34,7 @@ const Categories = () => {
     ];
 
     return (
-        <div className="pb-20 pt-40 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+        <div className="pb-20 pt-20 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
             <div className="w-full">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-bold text-[#0A2429] mb-4">
