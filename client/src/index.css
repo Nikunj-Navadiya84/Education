@@ -37,3 +37,12 @@
   border-bottom: 6px solid #e4ded8;
 }
 
+.principles .curved-bottom {
+  border-bottom: 4px solid #e1d9d9;
+}
+
+.principles .curved-bottom::after {
+  background: #FFF5F5;
+  border-bottom: 6px solid #e1d9d9;
+}
+

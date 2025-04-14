@@ -27,7 +27,14 @@ import courses5 from "./courses5.png"
 import courses6 from "./courses6.png"
 import courses7 from "./courses7.svg"
 import courses8 from "./courses8.svg"
-
+import principles1 from "./principles1.svg"
+import principles2 from "./principles2.svg"
+import principles3 from "./principles3.svg"
+import principles4 from "./principles4.svg"
+import principles5 from "./principles5.svg"
+import principles6 from "./principles6.svg"
+import principles7 from "./principles7.svg"
+import principles8 from "./principles8.svg"
 
 
 export const assets = {
@@ -60,5 +67,13 @@ export const assets = {
     courses6,
     courses7,
     courses8,
+    principles1,
+    principles2,
+    principles3,
+    principles4,
+    principles5,
+    principles6,
+    principles7,
+    principles8,
 }
 
