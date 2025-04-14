@@ -5,6 +5,9 @@ import Categories from "../components/Categories";
 import Success from "../components/Success";
 import Courses from "../components/Courses";
 import Principles from "../components/Principles";
+import Counter from "../components/Counter";
+
+
 const Home = () => {
   return (
     <div>
@@ -20,6 +23,8 @@ const Home = () => {
       <Courses />
 
       <Principles />
+
+      <Counter />
     </div>
   );
 };

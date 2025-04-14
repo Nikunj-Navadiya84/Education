@@ -45,7 +45,7 @@ const Courses = () => {
     ];
 
     return (
-        <section className="w-full bg-white py-16 md:py-24">
+        <section className="w-full bg-white py-16 md:py-20">
             <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
                 {/* Header */}
                 <div className="text-center mb-12">

@@ -55,7 +55,7 @@ const Principles = () => {
 
     return (
         <div className='principles'>
-            <div className="w-full bg-[#FFF5F5] curved-bottom  py-16 md:py-24">
+            <div className="w-full bg-[#FFF5F5] curved-bottom  py-16 md:py-20">
             <div className="w-full px-4 sm:px-[5vw]  md:px-[7vw] lg:px-[9vw]">
                 {/* Header */}
                 <div className="text-center mb-16">

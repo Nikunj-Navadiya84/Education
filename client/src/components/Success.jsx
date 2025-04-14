@@ -24,7 +24,7 @@ const Success = () => {
     return (
         <div className="success">
             <div className="curved-bottom bg-[#FFFAF5]">
-            <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] py-16">
+            <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] py-20">
                 <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 items-center">
                     {/* Left Content */}
                     <div className="space-y-6">
