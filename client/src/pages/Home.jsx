@@ -8,6 +8,10 @@ import Principles from "../components/Principles";
 import Counter from "../components/Counter";
 import Student from "../components/Student";
 import Questions from "../components/Questions";
+import Asked from "../components/Asked";
+
+
+
 const Home = () => {
   return (
     <div>
@@ -29,6 +33,8 @@ const Home = () => {
       <Student />
 
       <Questions />
+
+      <Asked />
     </div>
   );
 };

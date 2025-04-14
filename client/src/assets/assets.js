@@ -42,6 +42,10 @@ import student4 from "./student4.png"
 import student5 from "./student5.png"
 import leftarrow from "./leftarrow.svg"
 import rightarrow from "./rightarrow.svg"
+import asked1 from "./asked1.png"
+import asked2 from "./asked2.png"
+import asked3 from "./asked3.png"
+import date from "./date.svg"
 
 
 export const assets = {
@@ -88,6 +92,11 @@ export const assets = {
     student4,
     student5,
     leftarrow,
-    rightarrow
+    rightarrow,
+    asked1,
+    asked2,
+    asked3,
+    date
+    
 }
 
