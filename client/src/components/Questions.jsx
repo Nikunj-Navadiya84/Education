@@ -72,7 +72,7 @@ const Questions = () => {
                     </p>
                 </div>
 
-                <div className="flex gap-8">
+                <div className="flex flex-col lg:flex-row gap-8">
                     {/* FAQ Section */}
                     <div className="space-y-4 w-full">
                         {faqData.map((faq, index) => (
@@ -85,9 +85,9 @@ const Questions = () => {
                                     onClick={() => handleQuestionClick(index)}
                                 >
                                     <span className="font-medium text-lg text-[#0A2429]">{faq.question}</span>
-                                    <span className={`transform transition-transform text-xl cursor-pointer duration-300 bg-black text-white rounded-full w-6 h-6 flex items-center justify-center ${activeQuestion === index ? 'rotate-180' : ''}` }>
+                                    <p className={`transform transition-transform text-xl cursor-pointer duration-300 w-6 h-6 flex justify-center ${activeQuestion === index ? 'rotate-180' : ''}` }>
                                         {activeQuestion === index ? '-' : '+'}
-                                    </span>
+                                    </p>
                                 </button>
                                 {activeQuestion === index && (
                                     <div className="px-6 pb-4 text-gray-600 animate-fadeIn">
@@ -99,7 +99,7 @@ const Questions = () => {
                     </div>
 
                     {/* Contact Form */}
-                    <div className="bg-[#F8FFF9] p-6 rounded-lg w-1/2 border border-[#d1e0e3]">
+                    <div className="bg-[#F8FFF9] p-6 rounded-lg w-1/2 sm:w-full md:w-full border border-[#d1e0e3]">
                         <h3 className="text-lg text-center font-semibold mb-1 text-[#0A2429]">
                             In What Way Can We Help?
                         </h3>

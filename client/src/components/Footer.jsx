@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="w-full mt-20">
             {/* CTA Section */}
-            <div className="w-1/2 mx-auto px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] relative z-10">
+            <div className="2xl:w-1/2 mx-auto px-4 sm:px-[5vw] sm:w-full lg:w-3xl md:px-[7vw] lg:px-[9vw] relative z-10">
                 <div className="bg-[#FDF8F7] rounded-2xl -mb-20">
                     <div className="p-10 text-center">
                         <h2 className="text-3xl md:text-4xl font-bold text-[#0A2429] mb-4">
@@ -72,10 +72,10 @@ const Footer = () => {
                                     <img src={assets.facebook} alt="Facebook" className="w-6 h-6" />
                                 </a>
                                 <a href="#" className="text-white hover:text-gray-300 transition-colors">
-                                    <img src={assets.close} alt="Twitter" className="w-6 h-6" />
+                                    <img src={assets.vector} alt="Twitter" className="w-6 h-6" />
                                 </a>
                                 <a href="#" className="text-white hover:text-gray-300 transition-colors">
-                                    <img src={assets.youtube} alt="YouTube" className="w-6 h-6" />
+                                    <img src={assets.you} alt="YouTube" className="w-6 h-6" />
                                 </a>
                             </div>
                         </div>

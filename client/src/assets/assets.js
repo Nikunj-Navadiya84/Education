@@ -51,7 +51,8 @@ import email from "./email.svg"
 import phone from "./phone.svg"
 import instagram from "./instagram.svg"
 import facebook from "./facebook.svg"
-
+import vector from "./vector.svg"
+import you from "./you.svg"
 
 export const assets = {
     bannerbg,
@@ -107,5 +108,7 @@ export const assets = {
     location,
     instagram,
     facebook,
+    vector,
+    you,
 }
 
