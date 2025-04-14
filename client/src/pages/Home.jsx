@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Categories from "../components/Categories";
 import Success from "../components/Success";
+import Courses from "../components/Courses";
 
 const Home = () => {
   return (
@@ -15,6 +16,8 @@ const Home = () => {
       <Categories />
 
       <Success />
+
+      <Courses />
     </div>
   );
 };

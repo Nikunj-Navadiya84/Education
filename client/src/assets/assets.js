@@ -19,6 +19,14 @@ import success1 from "./success1.png"
 import success2 from "./success2.png"
 import star from "./star.svg"
 import arrow from "./arrow.svg"
+import courses1 from "./courses1.png"
+import courses2 from "./courses2.png"
+import courses3 from "./courses3.png"
+import courses4 from "./courses4.png"
+import courses5 from "./courses5.png"
+import courses6 from "./courses6.png"
+import courses7 from "./courses7.svg"
+import courses8 from "./courses8.svg"
 
 
 
@@ -44,5 +52,13 @@ export const assets = {
     success2,
     star,
     arrow,
+    courses1,
+    courses2,
+    courses3,
+    courses4,
+    courses5,
+    courses6,
+    courses7,
+    courses8,
 }
 
