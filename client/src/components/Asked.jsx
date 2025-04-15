@@ -34,7 +34,7 @@ const Asked = () => {
                     <h2 className="text-4xl font-bold text-[#0A2429] mb-4">
                         Frequently Asked Questions
                     </h2>
-                    <p className="text-gray-600 w-lg mx-auto text-sm">
+                    <p className="text-gray-600 mx-auto text-sm">
                         Explore our FAQs to learn more about how EduCode works and how
                         we can support your learning journey.
                     </p>

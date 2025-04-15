@@ -62,7 +62,7 @@ const Principles = () => {
                     <h2 className="text-[#0A2429] text-4xl md:text-4xl font-bold mb-4">
                         Our Guiding Principles
                     </h2>
-                    <p className="text-gray-600 w-lg mx-auto text-sm">
+                    <p className="text-gray-600 mx-auto text-sm">
                         Our values guide our mission to deliver impactful and accessible
                         education to learners everywhere.
                     </p>

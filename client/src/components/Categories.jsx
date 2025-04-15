@@ -40,7 +40,7 @@ const Categories = () => {
                     <h2 className="text-4xl font-bold text-[#0A2429] mb-4">
                         Explore Course Categories
                     </h2>
-                    <p className="text-gray-600 w-lg mx-auto text-sm">
+                    <p className="text-gray-600 mx-auto text-sm">
                         Discover courses tailored to your interests and career goals. Join a
                         vibrant learning community and enhance your expertise.
                     </p>

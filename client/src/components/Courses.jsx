@@ -52,7 +52,7 @@ const Courses = () => {
                     <h2 className="text-[#0A2429] text-4xl md:text-4xl font-bold mb-4">
                         Our Popular Online Courses
                     </h2>
-                    <p className="text-gray-600  w-lg mx-auto text-sm">
+                    <p className="text-gray-600 mx-auto text-sm">
                         Design and market online courses, faster engaging communities, and
                         earn from memberships - all on one robust, scalable platform.
                     </p>

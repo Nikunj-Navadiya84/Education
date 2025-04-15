@@ -4,14 +4,14 @@
 
 
 *{
-    font-family: "Poppins"
+    font-family: "Poppins";
 }
 
 
 .curved-bottom {
   position: relative;
   border-radius: 0 0 60px 60px;
-  border-bottom: 4px solid #ced1ce;
+  border-bottom: 10px groove #ced1ce;
 }
 
 .curved-bottom::after {
@@ -19,7 +19,7 @@
   position: absolute;
   bottom: -60px;
   left: 50%;
-  border-bottom: 6px solid #ced1ce;
+  border-bottom:  10px groove #ced1ce;
   transform: translateX(-50%);
   width: 120px;
   height: 60px;
@@ -29,38 +29,37 @@
 }
 
 .success .curved-bottom {
-  border-bottom: 4px solid #e4ded8;
+  border-bottom: 10px groove #e4ded8;
 }
 
 .success .curved-bottom::after {
   background: #FFFAF5;
-  border-bottom: 6px solid #e4ded8;
+  border-bottom:  10px groove #e4ded8;
 }
 
 .principles .curved-bottom {
-  border-bottom: 4px solid #e1d9d9;
+  border-bottom:  10px groove #e1d9d9;
 }
 
 .principles .curved-bottom::after {
   background: #FFF5F5;
-  border-bottom: 6px solid #e1d9d9;
+  border-bottom:  10px groove #e1d9d9;
 }
 
 .student .curved-bottom {
-  border-bottom: 4px solid #d4d7e6;
+  border-bottom: 10px groove #d4d7e6;
 }
 
 .student .curved-bottom::after {
   background: #F8F9FE;
-  border-bottom: 6px solid #d4d7e6;
+  border-bottom:  10px groove #d4d7e6;
 }
 
 .asked .curved-bottom {
-  border-bottom: 4px solid #e1d9d9;
+  border-bottom:  10px groove #e1d9d9;
 }
 
 .asked .curved-bottom::after {
   background: #FDF8F7;
-  border-bottom: 6px solid #e1d9d9;
+  border-bottom: 10px groove #e1d9d9;
 }
-

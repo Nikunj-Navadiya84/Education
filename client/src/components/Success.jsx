@@ -71,7 +71,7 @@ const Success = () => {
                                 className="object-cover "
                             />
 
-                            <div className="absolute 2xl:top-50 2xl:left-14 sm:top-40 sm:left-10 lg:left-30 lg:top-50 rounded-xl z-99">
+                            <div className="absolute 2xl:top-50 2xl:left-14 sm:top-40 sm:left-10 lg:left-30 lg:top-50 rounded-xl ">
                                 <img 
                                     src={assets.success1}
                                     alt="Online meeting"

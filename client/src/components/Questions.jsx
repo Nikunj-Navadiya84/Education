@@ -66,7 +66,7 @@ const Questions = () => {
                     <h2 className="text-4xl md:text-3xl font-bold text-[#0A2429] mb-4">
                         Frequently Asked Questions
                     </h2>
-                    <p className="text-gray-600 w-lg text-sm mx-auto">
+                    <p className="text-gray-600 text-sm mx-auto">
                         Explore our FAQs to learn more about how EduCode works and how
                         we can support your learning journey.
                     </p>
@@ -99,7 +99,7 @@ const Questions = () => {
                     </div>
 
                     {/* Contact Form */}
-                    <div className="bg-[#F8FFF9] p-6 rounded-lg w-1/2 sm:w-full md:w-full border border-[#d1e0e3]">
+                    <div className="bg-[#F8FFF9] p-6 rounded-lg 2xl:w-1/2 sm:w-full md:w-full border border-[#d1e0e3]">
                         <h3 className="text-lg text-center font-semibold mb-1 text-[#0A2429]">
                             In What Way Can We Help?
                         </h3>
