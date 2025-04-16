@@ -82,7 +82,7 @@ const Banner = () => {
                                 />
 
                                 {/* Course Count Badge */}
-                                <div className="absolute sm:top-0 sm:right-12 md:right-20 md:top-0 lg:top-10 lg:right-60 xl:right-0 xl:top-20 bg-[#FFF5D9] rounded-tl-4xl rounded-br-4xl p-3 sm:p-4 2xl:right-68 z-20">
+                                <div className="absolute sm:top-0 sm:right-12 md:right-20 md:top-0 lg:top-10 lg:right-60 xl:right-0 xl:top-20 bg-[#FFF5D9] rounded-tl-4xl rounded-br-4xl p-3 sm:p-4 z-20">
                                     <div className="flex items-center gap-2">
                                         <div className="p-2 bg-white rounded-full">
                                             <img src={assets.online} alt="" className="w-6 h-6 sm:w-8 sm:h-8" />
@@ -95,7 +95,7 @@ const Banner = () => {
                                 </div>
 
                                 {/* Decorative Stars */}
-                                <div className="absolute sm:top-40 sm:right-32 md:right-24 md:top-50 lg:right-62 lg:top-70 xl:right-2 2xl:right-68 text-[#0A2429] text-2xl sm:text-3xl">
+                                <div className="absolute sm:top-40 sm:right-32 md:right-24 md:top-50 lg:right-62 lg:top-70 xl:right-2 2xl:right-15 text-[#0A2429] text-2xl sm:text-3xl">
                                     <img src={assets.star1} alt="star" className="w-6 h-6 sm:w-8 sm:h-8" />
                                 </div>
                                 <div className="absolute top-30 left-14 sm:top-25 sm:left-21 md:top-30 md:left-32 lg:top-43 lg:left-32 xl:top-50 xl:left-10 text-[#0A2429] text-2xl sm:text-3xl">

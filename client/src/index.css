@@ -17,7 +17,7 @@
 .curved-bottom::after {
   content: "";
   position: absolute;
-  bottom: -60px;
+  bottom: -55px;
   left: 50%;
   border-bottom:  10px groove #ced1ce;
   transform: translateX(-50%);
@@ -25,7 +25,6 @@
   height: 60px;
   background: #f5f9f1;
   border-radius: 0 0 60px 60px;
-
 }
 
 .success .curved-bottom {
