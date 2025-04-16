@@ -152,7 +152,7 @@ const Questions = () => {
                             <div className='flex justify-end'>
                             <button
                                 type="submit"
-                                className="flex bg-[#0A2429] text-white py-2 px-6 rounded-md hover:bg-[#0A2429]/90 transition-colors"
+                                className="flex text-sm bg-[#0A2429] text-white py-2 px-6 rounded-md hover:bg-[#0A2429]/90 transition-colors"
                             >
                                 SUBMIT NOW
                             </button>

@@ -29,10 +29,10 @@ const Banner = () => {
                             </p>
 
                             <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
-                                <button className="w-full sm:w-auto px-6 py-3 bg-[#0A2429] text-white rounded-full hover:bg-opacity-90 transition-colors duration-300 font-semibold">
+                                <button className="w-full text-sm sm:w-auto px-6 py-3 bg-[#0A2429] text-white rounded-full hover:bg-opacity-90 transition-colors duration-300 font-semibold">
                                     EXPLORE COURSES
                                 </button>
-                                <button className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 text-[#0A2429] font-semibold">
+                                <button className="w-full text-sm sm:w-auto flex items-center justify-center gap-2 px-6 py-3 text-[#0A2429] font-semibold">
                                     <div className="w-10 h-10 flex items-center justify-center bg-white rounded-full shadow-lg">
                                         <FaPlay className="text-[#0A2429] ml-1" />
                                     </div>

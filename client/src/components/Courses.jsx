@@ -119,7 +119,7 @@ const Courses = () => {
                                     </span>
                                 </div>
 
-                                <button className="bg-[#0A2429] text-white py-3 px-6 rounded-full font-medium hover:bg-[#1a3f47]transition-colors text-[15px] cursor-pointer">
+                                <button className="bg-[#0A2429] text-xs text-white py-3 px-6 rounded-full font-medium hover:bg-[#1a3f47]transition-colors text-[15px] cursor-pointer">
                                     EXPLORE
                                 </button>
 

@@ -56,7 +56,7 @@ const Success = () => {
                             ))}
                         </div>
 
-                        <button className="bg-[#0A2429] text-white px-8 py-3 rounded-full font-medium hover:bg-[#1a3f47] transition-colors">
+                        <button className="bg-[#0A2429] text-white text-sm px-8 py-3 rounded-full font-medium hover:bg-[#1a3f47] transition-colors">
                             ABOUT US
                         </button>
                     </div>

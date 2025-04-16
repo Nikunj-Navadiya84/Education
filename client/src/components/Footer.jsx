@@ -16,7 +16,7 @@ const Footer = () => {
                             Join EduCode and venture into your digital skills era. Your
                             journey to success begins here. Enroll today!
                         </p>
-                        <button className="bg-[#0A2429] text-white px-5 py-3 rounded-full hover:bg-[#0A2429]/90 transition-colors">
+                        <button className="bg-[#0A2429] text-sm text-white px-5 py-3 rounded-full hover:bg-[#0A2429]/90 transition-colors">
                             GET STARTED
                         </button>
                     </div>
