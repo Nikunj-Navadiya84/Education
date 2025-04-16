@@ -69,7 +69,7 @@ const Student = () => {
                     </svg>
                 </div>
 
-                <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] py-20">
+                <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[12vw] py-20">
                     {/* Testimonial Slider */}
                     <div className="w-full">
                         {/* Student Images */}

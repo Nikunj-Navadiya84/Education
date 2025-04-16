@@ -30,7 +30,7 @@ const Header = ({ onHomeClick, onCategoriesClick, onCoursesClick, onPrinciplesCl
     };
 
     return (
-        <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] py-5 sticky top-0 z-50 bg-[#f5f9f1]">
+        <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[12vw] py-5 sticky top-0 z-50 bg-[#f5f9f1]">
             <div className="flex items-center justify-between">
                 {/* Logo */}
                 <div className="text-2xl sm:text-3xl font-bold text-gray-700 cursor-pointer">

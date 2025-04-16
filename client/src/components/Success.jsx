@@ -24,7 +24,7 @@ const Success = () => {
     return (
         <div className="success">
             <div className="curved-bottom bg-[#FFFAF5]">
-            <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] py-20">
+            <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[12vw] py-20">
                 <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 items-center">
                     {/* Left Content */}
                     <div className="space-y-6">
@@ -71,7 +71,7 @@ const Success = () => {
                                 className="object-cover "
                             />
 
-                            <div className="absolute 2xl:top-50 2xl:left-14 sm:top-40 sm:left-10 lg:left-30 lg:top-50 rounded-xl ">
+                            <div className="absolute 2xl:top-33 2xl:left-0 sm:top-40 sm:left-10 lg:left-30 lg:top-50 rounded-xl ">
                                 <img 
                                     src={assets.success1}
                                     alt="Online meeting"

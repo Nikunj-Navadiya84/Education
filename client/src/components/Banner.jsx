@@ -5,26 +5,26 @@ import { FaPlay } from "react-icons/fa";
 const Banner = () => {
     return (
         <div className="curved-bottom bg-[#f5f9f1]">
-            <div className="relative w-full  flex items-center justify-center px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]  sm:py-12 md:py-16  overflow-hidden">
+            <div className="relative w-full  flex items-center justify-center px-4 sm:px-[5vw] md:px-[7vw] lg:px-[12vw]    overflow-hidden">
 
                 <div className="w-full ">
                     <div className="flex flex-col xl:flex-row items-center justify-between gap-8 lg:gap-5">
                         {/* Left Content */}
                         <div className="flex-1 space-y-6 xl:space-y-8 w-full xl:w-1/2 flex flex-col items-center lg:items-start relative">
                             <div className="space-y-2 sm:space-y-3 text-center lg:text-left">
-                                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#0A2429]">Choose Classes</h1>
-                                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#0A2429]">Led By Exceptional</h2>
+                                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-[#0A2429]">Choose Classes</h1>
+                                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-[#0A2429]">Led By Exceptional</h2>
                                 <div className="flex items-center gap-2 sm:gap-3 justify-center lg:justify-start">
                                     <div className="flex -space-x-2 sm:-space-x-3">
                                         <img src={assets.group1} alt="teacher" className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" />
                                         <img src={assets.group2} alt="teacher" className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" />
                                         <img src={assets.group3} alt="teacher" className="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" />
                                     </div>
-                                    <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#0A2429]">Teachers!</span>
+                                    <span className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-[#0A2429]">Teachers!</span>
                                 </div>
                             </div>
 
-                            <p className="text-base sm:text-lg text-gray-600 max-w-xl text-center lg:text-left">
+                            <p className=" text-sm text-gray-600 max-w-sm text-center lg:text-left">
                                 The best online courses taught by expert educators to nurture your skills and fuel your career growth.
                             </p>
 

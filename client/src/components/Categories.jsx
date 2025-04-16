@@ -34,7 +34,7 @@ const Categories = () => {
     ];
 
     return (
-        <div className="pb-20 pt-20 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+        <div className="pb-20 pt-20 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[12vw]">
             <div className="w-full">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-bold text-[#0A2429] mb-4">
@@ -46,7 +46,7 @@ const Categories = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     {categories.map((category, index) => (
                         <div
                             key={index}

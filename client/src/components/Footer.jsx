@@ -6,9 +6,9 @@ const Footer = () => {
     return (
         <footer className="w-full mt-20">
             {/* CTA Section */}
-            <div className="2xl:w-1/2 mx-auto px-4 sm:px-[5vw] sm:w-full lg:w-3xl md:px-[7vw] lg:px-[9vw] relative z-10">
+            <div className="w-1/2 mx-auto  relative z-10">
                 <div className="bg-[#FDF8F7] rounded-2xl -mb-20">
-                    <div className="p-10 text-center">
+                    <div className="p-5 text-center">
                         <h2 className="text-3xl md:text-4xl font-bold text-[#0A2429] mb-4">
                             Why Don't You Start Today?
                         </h2>
@@ -25,7 +25,7 @@ const Footer = () => {
 
             {/* Main Footer */}
             <div className="bg-[#032606] pt-32 pb-6">
-                <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+                <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[12vw]">
                     <div className="max-w-7xl mx-auto">
                         {/* Footer Content Grid */}
                         <div className="flex flex-col items-center gap-8 pb-8 border-b border-[#0d5613]">

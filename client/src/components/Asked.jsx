@@ -28,7 +28,7 @@ const Asked = () => {
 
     return (
         <section className="asked">
-            <div className="w-full bg-[#FDF8F7] px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] curved-bottom py-20">
+            <div className="w-full bg-[#FDF8F7] px-4 sm:px-[5vw] md:px-[7vw] lg:px-[12vw] curved-bottom py-20">
                 {/* Header */}
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-bold text-[#0A2429] mb-4">

@@ -59,7 +59,7 @@ const Questions = () => {
     };
 
     return (
-        <section className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] py-20">
+        <section className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[12vw] py-20">
             <div className="">
                 {/* Header */}
                 <div className="text-center mb-12">
