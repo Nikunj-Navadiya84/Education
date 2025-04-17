@@ -65,7 +65,7 @@ const Banner = () => {
                         {/* Right Content */}
                         <div className="relative w-full xl:w-1/2 h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[600px]">
                             {/* Background Circle */}
-                            <div className="absolute left-[1.5rem] top-[2.5rem] sm:left-[5rem] sm:top-[2rem] md:left-[6rem] md:top-[2rem] xl:left-[2rem] xl:top-[4.5rem]">
+                            <div className="absolute left-[1.5rem] top-[2.5rem] sm:left-[5rem] sm:top-[2rem] md:left-[6rem] md:top-[2rem] lg:left-[10rem] lg:top-[2rem] xl:left-[2rem] xl:top-[4.5rem]">
                                 <img src={assets.banner2} alt="" className="w-full h-auto max-w-[480px] object-contain" />
                             </div>
 
@@ -73,11 +73,11 @@ const Banner = () => {
                             <img
                                 src={assets.bannergirls}
                                 alt="Student"
-                                className="absolute z-10 bottom-0 left-1/2 -translate-x-1/2 w-[220px] sm:w-[300px] md:w-[400px] xl:w-[520px] h-auto object-contain"
+                                className="absolute z-10 bottom-0 left-1/2 -translate-x-1/2 w-[220px] sm:w-[300px] md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[530px] 2xl:left-60 h-auto object-contain"
                             />
 
                             {/* Course Count Badge */}
-                            <div className="absolute top-2 right-4 sm:top-4 sm:right-12 md:top-6 md:right-20 lg:top-10 lg:right-60 xl:top-20 xl:right-4 bg-[#FFF5D9] rounded-tl-4xl rounded-br-4xl p-4 z-20">
+                            <div className="absolute top-2 right-4 sm:top-4 sm:right-12 md:top-6 md:right-20 lg:top-10 lg:right-40 xl:top-20 xl:right-4 2xl:right-50 bg-[#FFF5D9] rounded-tl-4xl rounded-br-4xl p-4 z-20">
                                 <div className="flex items-center gap-2">
                                     <div className="p-2 bg-white rounded-full">
                                         <img src={assets.online} alt="courses" className="w-6 h-6 sm:w-8 sm:h-8" />
@@ -95,7 +95,8 @@ const Banner = () => {
         sm:top-[12rem] sm:right-[3rem] 
         md:top-[14rem] md:right-[5rem] 
         lg:top-[16rem] lg:right-[8rem] 
-        xl:top-[18rem] xl:right-[0rem]">
+        xl:top-[18rem] xl:right-[0rem]
+        2xl:top-[20rem] 2xl:right-[13rem]">
                                 <img src={assets.star1} alt="star" className="w-6 h-6 sm:w-8 sm:h-8" />
                             </div>
 
