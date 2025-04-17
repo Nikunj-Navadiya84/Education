@@ -10,6 +10,7 @@ import Student from "../components/Student";
 import Questions from "../components/Questions";
 import Asked from "../components/Asked";
 import Footer from "../components/Footer";
+import { IoIosArrowUp } from "react-icons/io";
 
 const Home = () => {
   const homeRef = useRef(null);
@@ -36,9 +37,7 @@ const Home = () => {
         <Banner />
       </div>
 
-
       <Categories />
-
 
       <div ref={categoriesRef}>
         <Success />
@@ -49,19 +48,23 @@ const Home = () => {
       </div>
 
       <div ref={principlesRef}>
-      <Principles/>
+        <Principles />
       </div>
 
       <Counter />
-
       <Student />
-
       <Questions />
-
       <Asked />
 
       <div ref={footerRef}>
         <Footer />
+      </div>
+
+      {/* Scroll Buttons */}
+      <div className="fixed bottom-4 right-4 z-50">
+        <button
+         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="flex items-center justify-center bg-gray-600 text-white w-10 h-10 rounded-full shadow hover:bg-gray-800 transition" ><IoIosArrowUp className="text-2xl"/></button>
       </div>
     </div>
   );
