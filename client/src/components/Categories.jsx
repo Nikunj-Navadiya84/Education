@@ -50,20 +50,20 @@ const Categories = () => {
                     {categories.map((category, index) => (
                         <div
                             key={index}
-                            className={`${category.bgColor} rounded-3xl p-6 cursor-pointer transition-transform hover:scale-105`}
+                            className={`${category.bgColor} rounded-3xl p-4 cursor-pointer transition-transform hover:scale-105`}
                             style={{
                                   boxShadow: `-5px 0px 0px 0px ${category.shadowColor}ee, 0px 5px 0px 0px ${category.shadowColor}ee`
                             }}
                         >
-                            <div className="flex flex-col items-start h-full gap-4">
-                                <div className={`w-14 h-14 rounded-full ${category.iconBg} flex items-center justify-center self-start`}>
+                            <div className="flex flex-col items-center h-full gap-4">
+                                <div className={`w-14 h-14 rounded-full ${category.iconBg} flex items-center justify-center`}>
                                     <img 
                                         src={category.image} 
                                         alt={category.title}
                                         className="w-8 h-8 object-contain"
                                     />
                                 </div>
-                                <h3 className="text-md font-semibold text-[#0A2429] text-center w-full">
+                                <h3 className="text-sm font-semibold text-[#0A2429] text-center w-full">
                                     {category.title}
                                 </h3>
                             </div>
@@ -75,4 +75,4 @@ const Categories = () => {
     );
 };
 
-export default Categories; 
+export default Categories;
