@@ -63,7 +63,7 @@ const Banner = () => {
                         </div>
 
                         {/* Right Content */}
-                        <div className="relative w-full xl:w-1/2 h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
+                        <div className="relative w-full xl:w-1/2 h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[600px]">
                             {/* Background Circle */}
                             <div className="absolute left-[1.5rem] top-[2.5rem] sm:left-[5rem] sm:top-[2rem] md:left-[6rem] md:top-[2rem] xl:left-[2rem] xl:top-[4.5rem]">
                                 <img src={assets.banner2} alt="" className="w-full h-auto max-w-[480px] object-contain" />
@@ -75,7 +75,6 @@ const Banner = () => {
                                 alt="Student"
                                 className="absolute z-10 bottom-0 left-1/2 -translate-x-1/2 w-[220px] sm:w-[300px] md:w-[400px] xl:w-[520px] h-auto object-contain"
                             />
-
 
                             {/* Course Count Badge */}
                             <div className="absolute top-2 right-4 sm:top-4 sm:right-12 md:top-6 md:right-20 lg:top-10 lg:right-60 xl:top-20 xl:right-4 bg-[#FFF5D9] rounded-tl-4xl rounded-br-4xl p-4 z-20">
@@ -92,21 +91,24 @@ const Banner = () => {
 
                             {/* Decorative Stars */}
                             <div className="absolute 
-                top-[10rem] right-[1rem] 
-                sm:top-[12rem] sm:right-[3rem] 
-                md:top-[14rem] md:right-[5rem] 
-                lg:top-[16rem] lg:right-[8rem] 
-                xl:top-[18rem] xl:right-[0rem]
-                2xl:top-[18rem] 2xl:right-[4rem]">
+        top-[10rem] right-[1rem] 
+        sm:top-[12rem] sm:right-[3rem] 
+        md:top-[14rem] md:right-[5rem] 
+        lg:top-[16rem] lg:right-[8rem] 
+        xl:top-[18rem] xl:right-[0rem]">
                                 <img src={assets.star1} alt="star" className="w-6 h-6 sm:w-8 sm:h-8" />
                             </div>
 
-
-                            <div className="absolute top-[6rem] left-[3rem] sm:top-[7rem] sm:left-[5rem] md:top-[8rem] md:left-[8rem] lg:top-[11rem] lg:left-[8rem] xl:top-[12rem] xl:left-[3rem]">
+                            <div className="absolute 
+        top-[6rem] left-[3rem] 
+        sm:top-[7rem] sm:left-[5rem] 
+        md:top-[8rem] md:left-[8rem] 
+        lg:top-[11rem] lg:left-[8rem] 
+        xl:top-[12rem] xl:left-[3rem]">
                                 <img src={assets.star1} alt="star" className="w-6 h-6 sm:w-8 sm:h-8" />
                             </div>
-
                         </div>
+
                     </div>
                 </div>
             </div>
