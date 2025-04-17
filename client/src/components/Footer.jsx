@@ -82,7 +82,7 @@ const Footer = () => {
 
                         {/* Copyright */}
                         <div className="flex flex-col md:flex-row justify-between items-center pt-6 text-gray-400 text-sm">
-                            <p>Copyright © 2025 All Rights Reserved</p>
+                            <p>Copyright © 2025 All Rights Reserved / Nikunj Navadiya</p>
                             <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 mt-4 md:mt-0">
                                 <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
                                 <span className="hidden sm:block">|</span>
