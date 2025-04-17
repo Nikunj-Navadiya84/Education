@@ -1,5 +1,6 @@
 import React from 'react';
 import { assets } from "../assets/assets";
+import { motion } from "framer-motion";
 
 const Principles = () => {
     const principles = [
@@ -53,48 +54,115 @@ const Principles = () => {
         }
     ];
 
+    const containerVariants = {
+        hidden: { opacity: 0 },
+        visible: {
+            opacity: 1,
+            transition: {
+                staggerChildren: 0.1
+            }
+        }
+    };
+
+    const itemVariants = {
+        hidden: { y: 20, opacity: 0 },
+        visible: {
+            y: 0,
+            opacity: 1,
+            transition: {
+                duration: 0.5
+            }
+        }
+    };
+
     return (
         <div className='principles'>
-            <div className="w-full bg-[#FFF5F5] curved-bottom  py-16 md:py-20">
-            <div className="w-full px-4 sm:px-[5vw]  md:px-[7vw] lg:px-[12vw]">
-                {/* Header */}
-                <div className="text-center mb-16">
-                    <h2 className="text-[#0A2429] text-4xl md:text-4xl font-bold mb-4">
-                        Our Guiding Principles
-                    </h2>
-                    <p className="text-gray-600 mx-auto text-sm">
-                        Our values guide our mission to deliver impactful and accessible
-                        education to learners everywhere.
-                    </p>
-                </div>
+            <div className="w-full bg-[#FFF5F5] curved-bottom py-16 md:py-20">
+                <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[12vw]">
+                    {/* Header */}
+                    <motion.div 
+                        initial={{ opacity: 0, y: -20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5 }}
+                        className="text-center mb-16"
+                    >
+                        <h2 className="text-[#0A2429] text-4xl md:text-4xl font-bold mb-4">
+                            Our Guiding Principles
+                        </h2>
+                        <p className="text-gray-600 mx-auto text-sm">
+                            Our values guide our mission to deliver impactful and accessible
+                            education to learners everywhere.
+                        </p>
+                    </motion.div>
 
-                {/* Principles Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    {principles.map((principle) => (
-                        <div 
-                            key={principle.id}
-                            className="bg-white rounded-2xl p-6 border border-[#E4DED8] hover:shadow-md transition-all duration-300"
-                        >
-                            <div className="flex flex-col items-center text-center space-y-4">
-                                <div className="w-14 h-14 rounded-full bg-[#0A2429] flex items-center justify-center">
-                                    <img 
-                                        src={principle.icon} 
-                                        alt={principle.title}
-                                        className="w-8 h-8"
-                                    />
-                                </div>
-                                <h3 className="text-md font-semibold text-[#0A2429]">
-                                    {principle.title}
-                                </h3>
-                                <p className="text-sm text-gray-600 leading-relaxed">
-                                    {principle.description}
-                                </p>
-                            </div>
-                        </div>
-                    ))}
+                    {/* Principles Grid */}
+                    <motion.div 
+                        variants={containerVariants}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, margin: "-100px" }}
+                        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+                    >
+                        {principles.map((principle) => (
+                            <motion.div 
+                                key={principle.id}
+                                variants={itemVariants}
+                                whileHover={{ 
+                                    y: -10,
+                                    boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
+                                    transition: { duration: 0.2 }
+                                }}
+                                className="bg-white rounded-2xl p-6 border border-[#E4DED8]"
+                            >
+                                <motion.div 
+                                    className="flex flex-col items-center text-center space-y-4"
+                                    whileHover={{ 
+                                        scale: 1.02,
+                                        transition: { duration: 0.2 }
+                                    }}
+                                >
+                                    <motion.div 
+                                        className="w-14 h-14 rounded-full bg-[#0A2429] flex items-center justify-center"
+                                        whileHover={{ 
+                                            scale: 1.1,
+                                            rotate: 5,
+                                            transition: { duration: 0.2 }
+                                        }}
+                                    >
+                                        <motion.img 
+                                            src={principle.icon} 
+                                            alt={principle.title}
+                                            className="w-8 h-8"
+                                            whileHover={{ 
+                                                scale: 1.2,
+                                                transition: { duration: 0.2 }
+                                            }}
+                                        />
+                                    </motion.div>
+                                    <motion.h3 
+                                        className="text-md font-semibold text-[#0A2429]"
+                                        whileHover={{ 
+                                            color: "#1a3f47",
+                                            transition: { duration: 0.2 }
+                                        }}
+                                    >
+                                        {principle.title}
+                                    </motion.h3>
+                                    <motion.p 
+                                        className="text-sm text-gray-600 leading-relaxed"
+                                        whileHover={{ 
+                                            scale: 1.02,
+                                            transition: { duration: 0.2 }
+                                        }}
+                                    >
+                                        {principle.description}
+                                    </motion.p>
+                                </motion.div>
+                            </motion.div>
+                        ))}
+                    </motion.div>
                 </div>
             </div>
-        </div>
         </div>
     );
 };
