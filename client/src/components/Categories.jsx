@@ -46,7 +46,7 @@ const Categories = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-8">
                     {categories.map((category, index) => (
                         <div
                             key={index}
@@ -55,7 +55,7 @@ const Categories = () => {
                                   boxShadow: `-5px 0px 0px 0px ${category.shadowColor}ee, 0px 5px 0px 0px ${category.shadowColor}ee`
                             }}
                         >
-                            <div className="flex flex-col items-center h-full gap-4">
+                            <div className="flex flex-col items-center h-full gap-4 p-5">
                                 <div className={`w-14 h-14 rounded-full ${category.iconBg} flex items-center justify-center`}>
                                     <img 
                                         src={category.image} 
