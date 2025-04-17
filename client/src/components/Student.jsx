@@ -26,17 +26,17 @@ const Student = () => {
         },
         {
             id: 4,
-            name: "Sarah Chen",
-            role: "Digital Marketing Specialist",
+            name: "Daniel Kim",
+            role: "Software Engineer",
             image: assets.student4,
-            quote: "What sets this platform apart is the community and support system. The instructors are incredibly responsive, and the peer interaction adds so much value to the learning experience."
+            quote: "I’ve built strong foundational skills here and found support at every step of my journey. Definitely a game-changer for me!"
         },
         {
             id: 5,
-            name: "Sarah Chen",
-            role: "Digital Marketing Specialist",
+            name: "Ava Patel",
+            role: "UI/UX Intern",
             image: assets.student5,
-            quote: "What sets this platform apart is the community and support system. The instructors are incredibly responsive, and the peer interaction adds so much value to the learning experience."
+            quote: "This platform helped me transition from beginner to confident designer. The project-based learning is my favorite part."
         }
     ];
 
@@ -52,9 +52,9 @@ const Student = () => {
 
     return (
         <div className='student'>
-            <div className="w-full bg-[#F8F9FE] curved-bottom relative ">
+            <div className="w-full bg-[#F8F9FE] curved-bottom relative">
                 {/* Top Curve */}
-                <div className="absolute  top-0 left-0 w-full">
+                <div className="absolute top-0 left-0 w-full">
                     <svg
                         className="w-full h-40"
                         viewBox="0 0 1440 96"
@@ -70,27 +70,25 @@ const Student = () => {
                 </div>
 
                 <div className="w-full px-4 sm:px-[5vw] md:px-[7vw] lg:px-[12vw] py-20">
-                    {/* Testimonial Slider */}
                     <div className="w-full">
                         {/* Student Images */}
-                        <div className="relative h-32  w-full max-w-[1200px] mx-auto">
+                        <div className="relative h-32 w-full max-w-[1200px] mx-auto">
                             <div className="absolute w-full top-1/2 left-0 -translate-y-1/2">
-                                {/* Student Images */}
                                 <div className="absolute top-1/2 left-0 w-full -translate-y-1/2">
                                     <div className="relative w-full h-full">
                                         {/* Previous Students */}
-                                        <div className="absolute  left-[5%] 2xl:top-[-10px] sm:top-[-30px] transform -translate-y-1/2">
+                                        <div className="absolute left-[5%] 2xl:top-[-10px] sm:top-[-30px] transform -translate-y-1/2">
                                             <img
                                                 src={testimonials[(currentSlide - 1 + testimonials.length) % testimonials.length].image}
                                                 alt="Student"
-                                                className="w-12 h-12 rounded-full border-2 border-white"
+                                                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-white"
                                             />
                                         </div>
                                         <div className="absolute left-[25%] top-[10px] sm:top-[5px] transform -translate-x-1/2 -translate-y-1/2">
                                             <img
                                                 src={testimonials[(currentSlide - 2 + testimonials.length) % testimonials.length].image}
                                                 alt="Student"
-                                                className="w-12 h-12 rounded-full border-2 border-white"
+                                                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-white"
                                             />
                                         </div>
 
@@ -99,7 +97,7 @@ const Student = () => {
                                             <img
                                                 src={testimonials[currentSlide].image}
                                                 alt={testimonials[currentSlide].name}
-                                                className="w-20 h-20 rounded-full border-4 border-white shadow-lg"
+                                                className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-4 border-white shadow-lg"
                                             />
                                         </div>
 
@@ -108,14 +106,14 @@ const Student = () => {
                                             <img
                                                 src={testimonials[(currentSlide + 1) % testimonials.length].image}
                                                 alt="Student"
-                                                className="w-12 h-12 rounded-full border-2 border-white"
+                                                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-white"
                                             />
                                         </div>
                                         <div className="absolute right-[5%] 2xl:top-[-10px] sm:top-[-30px] transform -translate-y-1/2">
                                             <img
                                                 src={testimonials[(currentSlide + 2) % testimonials.length].image}
                                                 alt="Student"
-                                                className="w-12 h-12 rounded-full border-2 border-white"
+                                                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-white"
                                             />
                                         </div>
                                     </div>
@@ -125,35 +123,35 @@ const Student = () => {
 
                         {/* Testimonial Content */}
                         <div className="relative bg-white rounded-xl flex justify-center items-center text-center max-w-3xl mx-auto px-4">
-                            <div className='absolute left-[-20px] top-1/2 -translate-y-1/2'>
+                            <div className='absolute left-[-16px] sm:left-[-20px] top-1/2 -translate-y-1/2'>
                                 <button
                                     onClick={prevSlide}
-                                    className="w-10 h-10 rounded-full flex items-center justify-center bg-black cursor-pointer"
+                                    className="w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center bg-black"
                                 >
-                                    <img src={assets.leftarrow} alt="arrow" className='w-4 h-4' />
+                                    <img src={assets.leftarrow} alt="arrow" className='w-3 h-3 sm:w-4 sm:h-4' />
                                 </button>
                             </div>
 
-                            <div className='p-10'>
-                                <h3 className="text-[#0A2429] text-xl font-semibold mb-1">
+                            <div className='p-6 sm:p-8 md:p-10 text-center'>
+                                <h3 className="text-[#0A2429] text-lg sm:text-xl md:text-2xl font-semibold mb-2">
                                     {testimonials[currentSlide].name}
                                 </h3>
 
-                                <p className="text-gray-700 text-md mb-6 leading-relaxed">
+                                <p className="text-gray-700 text-sm sm:text-base md:text-lg mb-4 leading-relaxed">
                                     {testimonials[currentSlide].quote}
                                 </p>
 
-                                <p className="text-gray-500 text-sm">
+                                <p className="text-gray-500 text-xs sm:text-sm">
                                     — {testimonials[currentSlide].role}
                                 </p>
                             </div>
 
-                            <div className='absolute right-[-20px] top-1/2 -translate-y-1/2'>
+                            <div className='absolute right-[-16px] sm:right-[-20px] top-1/2 -translate-y-1/2'>
                                 <button
                                     onClick={nextSlide}
-                                    className="w-10 h-10 rounded-full flex items-center justify-center bg-black cursor-pointer"
+                                    className="w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center bg-black"
                                 >
-                                    <img src={assets.rightarrow} alt="arrow" className='w-4 h-4' />
+                                    <img src={assets.rightarrow} alt="arrow" className='w-3 h-3 sm:w-4 sm:h-4' />
                                 </button>
                             </div>
                         </div>
@@ -164,4 +162,4 @@ const Student = () => {
     );
 };
 
-export default Student; 
+export default Student;
