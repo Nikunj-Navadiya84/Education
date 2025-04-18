@@ -50,7 +50,7 @@ const Categories = () => {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 0.5
+                duration: 0.8
             }
         }
     };
@@ -61,7 +61,7 @@ const Categories = () => {
                 <motion.div 
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5 }}
+                    transition={{ duration: 0.8 }}
                     className="text-center mb-12"
                 >
                     <h2 className="text-4xl font-bold text-[#0A2429] mb-4">

@@ -21,7 +21,7 @@ const Banner = () => {
                                 <motion.h1 
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: 0.2, duration: 0.5 }}
+                                    transition={{ delay: 0.2, duration: 0.8 }}
                                     className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A2429]"
                                 >
                                     Choose Classes
@@ -29,7 +29,7 @@ const Banner = () => {
                                 <motion.h2 
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: 0.3, duration: 0.5 }}
+                                    transition={{ delay: 0.3, duration: 0.8 }}
                                     className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A2429]"
                                 >
                                     Led By Exceptional
@@ -37,7 +37,7 @@ const Banner = () => {
                                 <motion.div 
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: 0.4, duration: 0.5 }}
+                                    transition={{ delay: 0.4, duration: 0.8 }}
                                     className="flex items-center gap-2 sm:gap-3 justify-center lg:justify-start"
                                 >
                                     <div className="flex -space-x-2 sm:-space-x-3">
@@ -52,7 +52,7 @@ const Banner = () => {
                             <motion.p 
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.5, duration: 0.5 }}
+                                transition={{ delay: 0.5, duration: 0.8 }}
                                 className="text-sm text-gray-600 max-w-sm text-center lg:text-left"
                             >
                                 The best online courses taught by expert educators to nurture your skills and fuel your career growth.
@@ -61,7 +61,7 @@ const Banner = () => {
                             <motion.div 
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.6, duration: 0.5 }}
+                                transition={{ delay: 0.6, duration: 0.8 }}
                                 className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto"
                             >
                                 <motion.button 
@@ -87,7 +87,7 @@ const Banner = () => {
                             <motion.div 
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.7, duration: 0.5 }}
+                                transition={{ delay: 0.7, duration: 0.8 }}
                                 className="flex justify-end w-full"
                             >
                                 <div className="flex flex-col bg-[#E6F5F9] rounded-tl-4xl rounded-br-4xl p-4 gap-2">
@@ -146,7 +146,7 @@ const Banner = () => {
                             <motion.div 
                                 initial={{ opacity: 0, scale: 0.8, x: 50 }}
                                 animate={{ opacity: 1, scale: 1, x: 0 }}
-                                transition={{ delay: 0.5, duration: 0.5 }}
+                                transition={{ delay: 0.5, duration: 0.8 }}
                                 className="absolute top-2 right-4 sm:top-4 sm:right-12 md:top-6 md:right-20 lg:top-10 lg:right-40 xl:top-20 xl:right-4 2xl:right-50 bg-[#FFF5D9] rounded-tl-4xl rounded-br-4xl p-4 z-20"
                             >
                                 <div className="flex items-center gap-2">

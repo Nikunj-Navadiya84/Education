@@ -114,49 +114,24 @@ const Principles = () => {
                                 }}
                                 className="bg-white rounded-2xl p-6 border border-[#E4DED8]"
                             >
-                                <motion.div 
-                                    className="flex flex-col items-center text-center space-y-4"
-                                    whileHover={{ 
-                                        scale: 1.02,
-                                        transition: { duration: 0.2 }
-                                    }}
-                                >
-                                    <motion.div 
-                                        className="w-14 h-14 rounded-full bg-[#0A2429] flex items-center justify-center"
-                                        whileHover={{ 
-                                            scale: 1.1,
-                                            rotate: 5,
-                                            transition: { duration: 0.2 }
-                                        }}
-                                    >
+                                <motion.div className="flex flex-col items-center text-center space-y-4">
+                                    
+                                    <motion.div className="w-14 h-14 rounded-full bg-[#0A2429] flex items-center justify-center">
                                         <motion.img 
                                             src={principle.icon} 
                                             alt={principle.title}
                                             className="w-8 h-8"
-                                            whileHover={{ 
-                                                scale: 1.2,
-                                                transition: { duration: 0.2 }
-                                            }}
                                         />
                                     </motion.div>
-                                    <motion.h3 
-                                        className="text-md font-semibold text-[#0A2429]"
-                                        whileHover={{ 
-                                            color: "#1a3f47",
-                                            transition: { duration: 0.2 }
-                                        }}
-                                    >
+
+                                    <motion.h3 className="text-md font-semibold text-[#0A2429]">
                                         {principle.title}
                                     </motion.h3>
-                                    <motion.p 
-                                        className="text-sm text-gray-600 leading-relaxed"
-                                        whileHover={{ 
-                                            scale: 1.02,
-                                            transition: { duration: 0.2 }
-                                        }}
-                                    >
+
+                                    <motion.p className="text-sm text-gray-600 leading-relaxed">
                                         {principle.description}
                                     </motion.p>
+
                                 </motion.div>
                             </motion.div>
                         ))}
