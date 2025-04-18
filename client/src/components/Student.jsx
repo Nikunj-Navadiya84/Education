@@ -222,61 +222,31 @@ const Student = () => {
                                 </button>
                             </motion.div>
 
-                            <AnimatePresence initial={false} custom={-1}>
-                                <motion.div 
-                                    key={currentSlide}
-                                    custom={-1}
-                                    variants={slideVariants}
-                                    initial="enter"
-                                    animate="center"
-                                    exit="exit"
-                                    transition={{
-                                        x: { type: "spring", stiffness: 300, damping: 30 },
-                                        opacity: { duration: 0.2 }
-                                    }}
-                                    className='p-6 sm:p-8 md:p-10 text-center'
-                                >
-                                    <motion.h3 
-                                        initial={{ opacity: 0, y: 20 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        transition={{ delay: 0.2 }}
-                                        className="text-[#0A2429] text-lg sm:text-xl md:text-2xl font-semibold mb-2"
-                                    >
+                           
+                                <div key={currentSlide} className='p-6 sm:p-8 md:p-10 text-center'>
+                                    <h3 className="text-[#0A2429] text-lg sm:text-xl md:text-2xl font-semibold mb-2">
                                         {testimonials[currentSlide].name}
-                                    </motion.h3>
+                                    </h3>
 
-                                    <motion.p 
-                                        initial={{ opacity: 0, y: 20 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        transition={{ delay: 0.3 }}
-                                        className="text-gray-700 text-sm sm:text-base md:text-lg mb-4 leading-relaxed"
-                                    >
+                                    <p className="text-gray-700 text-sm sm:text-base md:text-lg mb-4 leading-relaxed">
                                         {testimonials[currentSlide].quote}
-                                    </motion.p>
+                                    </p>
 
-                                    <motion.p 
-                                        initial={{ opacity: 0, y: 20 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        transition={{ delay: 0.4 }}
-                                        className="text-gray-500 text-xs sm:text-sm"
-                                    >
+                                    <p className="text-gray-500 text-xs sm:text-sm">
                                         — {testimonials[currentSlide].role}
-                                    </motion.p>
-                                </motion.div>
-                            </AnimatePresence>
+                                    </p>
+                                    
+                                </div>
+                           
 
-                            <motion.div 
-                                whileHover={{ scale: 1.1 }}
-                                whileTap={{ scale: 0.9 }}
-                                className='absolute right-[-16px] sm:right-[-20px] top-1/2 -translate-y-1/2'
-                            >
+                            <div className='absolute right-[-16px] sm:right-[-20px] top-1/2 -translate-y-1/2'>
                                 <button
                                     onClick={nextSlide}
                                     className="w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center bg-black"
                                 >
                                     <img src={assets.rightarrow} alt="arrow" className='w-3 h-3 sm:w-4 sm:h-4' />
                                 </button>
-                            </motion.div>
+                            </div>
                         </motion.div>
                     </div>
                 </div>
