@@ -46,7 +46,7 @@ const Courses = () => {
             id: 4,
             title: "Boost Reader Engagement With Captivating Strategies",
             category: "DEVELOPMENT",
-            image: assets.courses3,
+            image: assets.courses9,
             students: "423 students",
             duration: "02h 30m",
             instructor: {

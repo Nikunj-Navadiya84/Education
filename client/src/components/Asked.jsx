@@ -28,7 +28,7 @@ const Asked = () => {
             id: 4,
             title: "I Want To See How Best The Community Can Help",
             date: "27 Mar,2025",
-            image: assets.asked3,
+            image: assets.asked4,
             alt: "Student learning online with headphones"
         }
     ];

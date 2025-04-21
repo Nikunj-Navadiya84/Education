@@ -27,6 +27,7 @@ import courses5 from "./courses5.png"
 import courses6 from "./courses6.png"
 import courses7 from "./courses7.svg"
 import courses8 from "./courses8.svg"
+import courses9 from "./courses9.webp"
 import principles1 from "./principles1.svg"
 import principles2 from "./principles2.svg"
 import principles3 from "./principles3.svg"
@@ -45,6 +46,7 @@ import rightarrow from "./rightarrow.svg"
 import asked1 from "./asked1.png"
 import asked2 from "./asked2.png"
 import asked3 from "./asked3.png"
+import asked4 from "./asked4.jpg"
 import date from "./date.svg"
 import location from "./location.svg"
 import email from "./email.svg"
@@ -85,6 +87,7 @@ export const assets = {
     courses6,
     courses7,
     courses8,
+    courses9,
     principles1,
     principles2,
     principles3,
@@ -103,6 +106,7 @@ export const assets = {
     asked1,
     asked2,
     asked3,
+    asked4,
     date,
     email,
     phone,
