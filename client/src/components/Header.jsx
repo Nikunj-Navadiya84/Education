@@ -72,25 +72,37 @@ const Header = ({ onHomeClick, onCategoriesClick, onCoursesClick, onPrinciplesCl
 
             {/* Mobile Menu */}
             {menuOpen && (
-                <div className="lg:hidden absolute top-full left-0 right-0 bg-[#f5f9f1] z-40 flex flex-col gap-4 py-4 px-4 sm:px-[5vw] md:px-[7vw] text-sm font-medium shadow-md">
-                    <ul className="flex flex-col gap-3">
-                        <li className={getMobileNavItemClasses('home')} onClick={() => handleNavItemClick('home', onHomeClick)}>HOME</li>
-                        <li className={getMobileNavItemClasses('about')} onClick={() => handleNavItemClick('about', onCategoriesClick)}>ABOUT US</li>
-                        <li className={getMobileNavItemClasses('courses')} onClick={() => handleNavItemClick('courses', onCoursesClick)}>COURSES</li>
-                        <li className={getMobileNavItemClasses('blog')} onClick={() => handleNavItemClick('blog', onPrinciplesClick)}>BLOG</li>
-                        <li className={getMobileNavItemClasses('contact')} onClick={() => handleNavItemClick('contact', onFooterClick)}>CONTACT</li>
-                    </ul>
-                    {/* Mobile Login & Signup */}
-                    <div className="sm:hidden flex flex-col gap-2 mt-2">
-                        <button className="w-full text-center border border-gray-200 rounded px-3 py-2 cursor-pointer text-gray-700 hover:text-black hover:border-gray-900 hover:bg-gray-50 transition-all">
-                            Login
-                        </button>
-                        <button className="w-full text-center text-white bg-gray-700 rounded px-3 py-2 hover:bg-gray-800 transition-colors">
-                            Signup
-                        </button>
+                <div className="lg:hidden fixed inset-0 z-40">
+                    {/* Overlay background (optional for dimming) */}
+                    <div
+                        className="absolute inset-0  bg-opacity-30"
+                        onClick={() => setMenuOpen(false)}
+                    ></div>
+
+                    {/* Slide-in Menu */}
+                    <div className={`absolute top-0 left-0 h-full w-3/4 max-w-sm bg-[#f5f9f1] shadow-lg transition-transform duration-300 transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+                        <div className="flex flex-col gap-4 py-6 px-4 text-sm font-medium">
+                            <ul className="flex flex-col gap-3">
+                                <li className={getMobileNavItemClasses('home')} onClick={() => handleNavItemClick('home', onHomeClick)}>HOME</li>
+                                <li className={getMobileNavItemClasses('about')} onClick={() => handleNavItemClick('about', onCategoriesClick)}>ABOUT US</li>
+                                <li className={getMobileNavItemClasses('courses')} onClick={() => handleNavItemClick('courses', onCoursesClick)}>COURSES</li>
+                                <li className={getMobileNavItemClasses('blog')} onClick={() => handleNavItemClick('blog', onPrinciplesClick)}>BLOG</li>
+                                <li className={getMobileNavItemClasses('contact')} onClick={() => handleNavItemClick('contact', onFooterClick)}>CONTACT</li>
+                            </ul>
+                            {/* Mobile Login & Signup */}
+                            <div className="sm:hidden flex flex-col gap-2 mt-2">
+                                <button className="w-full text-center border border-gray-200 rounded px-3 py-2 cursor-pointer text-gray-700 hover:text-black hover:border-gray-900 hover:bg-gray-50 transition-all">
+                                    Login
+                                </button>
+                                <button className="w-full text-center text-white bg-gray-700 rounded px-3 py-2 hover:bg-gray-800 transition-colors">
+                                    Signup
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             )}
+
         </div>
     );
 };
