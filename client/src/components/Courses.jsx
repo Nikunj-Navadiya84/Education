@@ -72,7 +72,7 @@ const Courses = () => {
                 </div>
 
                 {/* Course Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 ">
+                <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-6 ">
                     {courses.map((course) => (
                         <div
                             key={course.id}
@@ -83,7 +83,7 @@ const Courses = () => {
                                 <img
                                     src={course.image}
                                     alt=""
-                                    className="w-full object-cover"
+                                    className="w-full h-60 object-cover"
                                 />
                                 <div className="absolute  bottom-[-10px] left-[50%] translate-x-[-50%]">
                                     <span className="bg-[#E8F1EE]/80 backdrop-blur-sm px-4 py-2 w-full rounded-full text-[12px] font-medium text-[#0A2429]">

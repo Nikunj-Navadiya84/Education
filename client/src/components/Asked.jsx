@@ -48,7 +48,7 @@ const Asked = () => {
                 </div>
 
                 {/* Blog Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-6">
                     {blogPosts.map((post) => (
                         <div 
                             key={post.id} 
@@ -59,7 +59,7 @@ const Asked = () => {
                                 <img
                                     src={post.image}
                                     alt={post.alt}
-                                    className="w-full h-full rounded-lg object-cover"
+                                    className="w-full h-60 rounded-lg object-cover"
                                 />
                             </div>
 
