@@ -23,6 +23,13 @@ const Asked = () => {
             date: "27 Mar,2025",
             image: assets.asked3,
             alt: "Student learning online with headphones"
+        },
+        {
+            id: 4,
+            title: "I Want To See How Best The Community Can Help",
+            date: "27 Mar,2025",
+            image: assets.asked3,
+            alt: "Student learning online with headphones"
         }
     ];
 
@@ -41,7 +48,7 @@ const Asked = () => {
                 </div>
 
                 {/* Blog Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {blogPosts.map((post) => (
                         <div 
                             key={post.id} 

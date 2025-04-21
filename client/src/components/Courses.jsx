@@ -41,6 +41,19 @@ const Courses = () => {
                 avatar: assets.courses6
             },
             price: "$520.00"
+        },
+        {
+            id: 4,
+            title: "Boost Reader Engagement With Captivating Strategies",
+            category: "DEVELOPMENT",
+            image: assets.courses3,
+            students: "423 students",
+            duration: "02h 30m",
+            instructor: {
+                name: "Myrella Aston",
+                avatar: assets.courses6
+            },
+            price: "$520.00"
         }
     ];
 
@@ -59,7 +72,7 @@ const Courses = () => {
                 </div>
 
                 {/* Course Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 ">
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 ">
                     {courses.map((course) => (
                         <div
                             key={course.id}

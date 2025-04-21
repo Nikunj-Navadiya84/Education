@@ -54,6 +54,7 @@ import facebook from "./facebook.svg"
 import vector from "./vector.svg"
 import you from "./you.svg"
 
+
 export const assets = {
     bannerbg,
     bannergirls,
@@ -110,5 +111,6 @@ export const assets = {
     facebook,
     vector,
     you,
+    
 }
 
